@@ -98,6 +98,7 @@ function applyRentalLengthDiscount(totalPrice, days, season) {
   return totalPrice;
 }
 
+
 function getCarClass(type) {
   const allowedClasses = ["Compact", "Electric", "Cabrio", "Racer"];
   return allowedClasses.includes(type) ? type : "Unknown";
